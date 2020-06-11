@@ -1,0 +1,5 @@
+<script runat=server>
+Platform.Load("Core", "1");
+var data = DataExtension.Init("YOUR DE EXTERNAL KEY").Rows.Retrieve(filter);
+Write(Stringify(data));
+</script>
